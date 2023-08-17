@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce66de2e45b1b7b449e4a1bd42883c7f, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  gravityScale: 1
+  wallJumpGravityScale: 1
+  RecoilGravityScale: 1.6
+  fastFallGravityMultiplier: 2
+  getHitTime: 0.2
+  hitFreezeTime: 0.2
+  knockBackVelocity: {x: 5, y: 3}
+  hitInvincibeTime: 1
+  hitFlickerRepeatFrequency: 5
+  debugState: 0
+  timeScale: 0.3
+  maxMoveSpeed: 6
+  moveAcceleration: 6
+  accelerationAmount: 50
+  moveDeceleration: 6
+  decelerationAmount: 50
+  accelerationInAir: 1
+  decelerationInAir: 0.3
+  jumpForce: 14
+  amountOfJumps: 1
+  jumpAnimationTime: 0.091
+  dashJumpForce: {x: 11, y: 14}
+  dashJumpTime: 1
+  dashJumpAccel: 0.35
+  dashJumpDecel: 2
+  dashJumpCustomAccelTime: 0.3
+  wallJumpForce: {x: 7, y: 14}
+  wallSlideSpeed: 2
+  wallSlideAcceleration: 0.55
+  wallSlideAccelerationAmount: 13.75
+  wallSlideAccelerationAmount2: 0
+  wallJumpCustomAccelTime: 0.5
+  wallJumpAccelerationInAir: 0.3
+  wallJumpDecelerationInAir: 0.02
+  wallJumpInputStopTime: 0.09
+  wallJumpTime: 0.2
+  dashForce: 18
+  dashTime: 0.3
+  dashDeceleration: 10
+  dashCoolDown: 0.15
+  runSpeed: 10
+  runAcceleration: 0
+  runDeceleration: 3
+  runStopDownTime: 0.3
+  runStopUpTime: 0
+  inAirDashForce: {x: 18, y: 0}
+  inAirDashDeceleration: 10
+  inAirDashCustomAccelTime: 0.2
+  inAirDashAccelerationInAir: 0.3
+  inAirDashDecelerationInAir: 0.1
+  inAirDashTime: 0.1
+  rollSpeed: 10
+  rollChangeDirAcceleration: 0.3
+  baseAttackDurationTime: 0.173
+  baseAttackCoolDown: 0.25
+  baseAttackCountResetTime: 0.14
+  SideAttackResetTime: 0.39
+  inAirAttackCoolDown: 0.25
+  baseSideAttackRange: {x: 1.68, y: 1.32}
+  baseUpAttackRange: {x: 1.8, y: 2.02}
+  baseDownAttackRange: {x: 1.8, y: 1.5}
+  skill_0_CastDelay: 0.5
+  skill_0_FireDuration: 0.23
+  skill_0_RecoilToEnemy: 0
+  skill_1_CastDelay: 0.2
+  skill_1_SmashDuration: 0.15
+  healTime: 0
+  baseAttack_RecoilToEnemy: 7
+  SideRecoilTime: 0.12
+  SideRecoilForce: 5
+  DownRecoilForce: 15
+  UpRecoilForce: -1
+  coyoteTime: 0.1
+  maxFallSpeed: 12
+  Side_0_Slash_R: -10
+  Side_0_HitBack_R: 0
+  Side_0_HitParticle_R: 0
+  Side_1_Slash_R: 10
+  Side_1_HitBack_R: 0
+  Side_1_HitParticle_R: 0
+  Up_Slash_R: 100
+  Up_HitBack_R: 100
+  Up_HitParticle_R: 100
+  Down_Slash_R: -100
+  Down_HitBack_R: -100
+  Down_HitParticle_R: -100
+  groundCheckSize: {x: 0.33, y: 0.05}
+  wallCheckSize: {x: 0.13, y: 0.91}
+  dashCheckSize: {x: 0.28, y: 0.57}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 512
+  checkIsEnemies:
+    serializedVersion: 2
+    m_Bits: 16384
